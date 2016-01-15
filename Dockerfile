@@ -10,3 +10,5 @@ COPY ./.profile /root/.profile
 
 VOLUME ["/code"]
 WORKDIR /code
+
+CMD ["/bin/sh", "--login"]
